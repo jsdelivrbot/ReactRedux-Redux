@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import UserList from '../containers/user_list'
-
+import UserDetail from '../containers/user_detail'
 
 
 export default class App extends Component {
@@ -8,6 +8,7 @@ export default class App extends Component {
 		return (
 			<div>
 				<UserList />
+				<UserDetail/>
 			</div>
 		);
 	}
